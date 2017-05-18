@@ -1,0 +1,307 @@
+@CHARSET "UTF-8";
+
+#container{
+	width:1280px;
+	height:700px;
+	background-color: tomato;
+}
+
+#left{
+	width:400px;
+	height: 100%;
+	background-color: #EDF1F2;
+	float: left;
+	border-right:1px solid #DEE5E7;
+}
+
+#right{
+	width:877px;
+	height: 100%;
+	background-color: #EFF2F3;
+	float: left;
+}
+
+
+
+#left-top{
+	width:100%;
+	height: 80px;
+	background-color: #DDE6E9;
+	text-indent: 25px;
+	line-height: 80px;
+	font-size:25px;
+}
+
+
+#right-top{
+	width:100%;
+	height: 80px;
+	background-color: #E4E4EA;
+	text-indent: 25px;
+	line-height: 80px;
+	font-size:25px;
+}
+
+
+
+#message-title{
+	width:340px;
+	height: 100px;
+	margin-top: 30px;
+	margin-left: 25px;
+	font-size: 20px;
+}
+
+#message-type{
+	width:340px;
+	height: 50px;
+	margin-left: 25px;
+}
+
+#message-date{
+	width:340px;
+	height: 50px;
+	margin-left: 25px;
+}
+
+
+#message-status{
+	width:340px;
+	height: 50px;
+	margin-left: 25px;
+}
+
+#message-person{
+	width:340px;
+	height: 50px;
+	margin-left: 25px;
+}
+
+#message-nextperson{
+	width:340px;
+	height: 25px;
+	margin-left: 25px;
+}
+
+#detail-type{
+	width:800px;
+	height: 35px;
+	background-color: white;
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+#detail-info{
+	width:800px;
+/* 	height: 80px; */
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+}
+
+#detail-end{
+	width:800px;
+	height: 25px;
+	background-color:#DDE6E9;
+	margin-left: 40px;
+	margin-top: 20px;
+	float: left;
+}
+
+#detail-deal{
+	width:800px;
+	height: 35px;
+	margin-left: 40px;
+	margin-top: 30px;
+	float: left;
+}
+
+#detail-type-type{
+	width:200px;
+	height: 100%;
+	line-height: 35px;
+	text-indent: 15px;
+	float:left;
+}
+
+#detail-type-info{
+	width:200px;
+	height: 100%;
+	line-height: 35px;
+	text-indent: 15px;
+	float:left;
+}
+
+
+#info-type{
+	width:160px;
+/* 	height: 100%; */
+	line-height: 60px;
+	text-indent: 15px;
+	float:left;
+}
+
+#info-info{
+	width:580px;
+/* 	height: 100%; */
+	/* line-height: 60px; */
+	margin-left:40px;	
+	float:left;
+	color:#2e3436;
+}
+
+#idea-type{
+	width:150px;
+	height: 100px;
+	margin-top:20px;
+	margin-left:40px;
+	line-height:100px;
+	text-indent:15px;
+	float:left;
+}
+
+#idea-info{
+	width:610px;
+	height: 100px;
+	margin-top:20px;
+	margin-left:40px;
+	line-height:100px;
+	float:left;
+}
+
+#deal{
+	width:120px;
+	height: 100%;
+}
+
+#deal-ico{
+	width:35px;
+	height: 100%;
+	background-image: url("/images/deal.png");
+	float: left;
+}
+#deal-message{
+	width:83px;
+	height: 100%;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	background-color: #6cd386;	
+}
+
+#detail-deal div{ 
+	float: left;
+}
+
+#type{
+	width:130px;
+	height: 100%;
+	float: left;
+	margin-left: 15px;
+}
+
+#stype{
+	width:150px;
+	height: 100%;
+	float: left;
+	margin-left: 15px;
+}
+
+
+#reback{
+	width:120px;
+	height: 100%;
+	margin-left: 20px;
+}
+#reback-ico{
+	width:35px;
+	height: 100%;
+	background-image: url("/images/reback.png");
+}
+
+#reback-message{
+	width:83px;
+	height: 100%;
+	line-height: 30px;
+	float: left;
+	text-align: center;
+	background-color: #F6E076;	
+}
+
+#choose{
+	width:610px;
+	height: 40px;
+}
+
+#sub{
+	width:500px;
+	height: 30px;
+	margin-top: 15px;
+}
+
+
+#filesList{
+	text-indent:15px;
+	margin-top:20px;
+	margin-left:40px;
+	width:600px;
+	height: 40px;
+	float: left;
+}
+
+#filesList div{
+	float: left;
+}
+
+#fileDo{
+	position:absolute;
+	right:200px;
+}
+
+#fileMerge{
+	float: left;	
+	margin-left:50px;
+	margin-top:10px;
+}
+
+
+#replay{
+	width:85%;
+	margin-top:15px;
+	margin-left: 25px;
+}
+
+#replay-top{
+	width:100%;
+	height: 25px;
+}
+
+#replay div{
+	float: left;
+}
+
+#replayName{
+	margin-top:15px;
+}
+
+#replayInfo{
+	margin-top:5px;
+	margin-left:20px;
+}
+
+#replayDate{
+	margin-left:20px;
+	margin-top:15px;
+}
+
+
+#ReplayEmp:HOVER{
+	cursor: pointer;
+}
+
+#FlowEmp:HOVER{
+	cursor: pointer;
+}
+
+
+
